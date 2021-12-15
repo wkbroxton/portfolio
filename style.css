@@ -5,45 +5,75 @@
 }
 
 body {
-  cursor: url('https://i.imgur.com/XCagQbm.png'), default;
   background-color: black;
 }
 
+.container-fluid {
+  background-color: white;
+}
 .navbar {
   width: 100%;
   background-color: white;
 }
 
+.nav-logo {
+  width: 2.5vmax;
+  height: 2.5vmax;
+}
+
 .nav-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: whitesmoke;
   width: 100%;
 }
 
 .profile{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 3em;
-  padding-bottom: 3em;
+  margin-top: 8em;
+  margin-bottom: 6em;   
 }
 
 .wkb{
-  width: 32em;
-  height: 32em;
+  width: 25vmax;
+  height: 25vmax;
   margin-right: 2em;
 }
 
+
 .typing{
-  max-width: 30vmax;
+  width: 20vmax;
 }
 
 .diamond{
-  width: 32em;
-  height: 32em;
-  margin-right: 7em;
+  height: 25vmax;
+  width: 25vmax;
+  margin-right: 4em;
   transform: rotate(45deg);
+}
+
+.main > .profile > .diamond{
+  transform: rotate(45deg);
+  max-width: 40%;
+  height: auto;
+}
+
+.about {
+  background-color: rgb(21, 22, 22);
+}
+
+.about > h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.about > h3 {
+  display: flex;
+  justify-content: center;
+  margin: 3em 6em 3em 6em;
 }
 
 .grid-container > div {
@@ -68,29 +98,48 @@ body {
   justify-content: left;
 }
 
-.content > skill-body{
-  color: black;
-  background-color: white;
-}
-
-
 h2#skills{
   color: black;
   background-color: white;
+  padding: 1.5em;
 }
 
-.skill-images {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+.skillz {
+  color: black;
+  background-color: white;
+  padding: 0 5em 5em 5em;
+}
+
+div img {
   height: 10vmin;
 }
 
-.main > .profile > .diamond{
-  transform: rotate(45deg);
-  max-width: 40%;
-  height: auto;
+.div-city {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+
+.projects {
+  padding: 4em;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+h5, p {
+  color: black;
+}
+
+h5{
+  size: 2em;
+}
+
+p{
+  size: 1em;
 }
 
 footer{
@@ -99,8 +148,3 @@ footer{
   margin-top: 5em;
 }
 
-/* .row row-cols-1 row-cols-md-3 g-4 {
-  display: flex;
-  flex-direction: row;
-  max-width: 32vw;
-} */
