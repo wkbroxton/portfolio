@@ -11,6 +11,7 @@ body {
 .container-fluid {
   background-color: white;
 }
+
 .navbar {
   width: 100%;
   background-color: white;
@@ -19,6 +20,11 @@ body {
 .nav-logo {
   width: 2.5vmax;
   height: 2.5vmax;
+}
+.wkb-name {
+  color: black;
+  font-size: 1em;
+  padding: 8px;
 }
 
 .nav-item {
@@ -62,18 +68,18 @@ body {
 
 .about {
   background-color: rgb(21, 22, 22);
+  padding: 4em;
 }
 
 .about > h2 {
   display: flex;
   justify-content: center;
-  margin-top: 5em;
 }
 
 .about > h3 {
   display: flex;
   justify-content: center;
-  margin: 3em 6em 3em 6em;
+  margin: 0 6em 0 6em;
 }
 
 .grid-container > div {
@@ -98,7 +104,7 @@ body {
   justify-content: left;
 }
 
-h2#skills{
+.skillz > h2 {
   color: black;
   background-color: white;
   padding: 1.5em;
