@@ -1,156 +1,186 @@
 *{
-    box-sizing: border-box;
-    font-family: 'Cormorant Garamond', serif;
-    color: whitesmoke;
+  box-sizing: border-box;
+  font-family: 'Cormorant Garamond', serif;
+  color: whitesmoke;
 }
 
 body {
-  background-color: black;
+background-color: black;
 }
 
 .container-fluid {
-  background-color: white;
+background-color: white;
 }
 
 .navbar {
-  width: 100%;
-  background-color: white;
+width: 100%;
+background-color: white;
 }
 
 .nav-logo {
-  width: 2.5vmax;
-  height: 2.5vmax;
+width: 2.5vmax;
+height: 2.5vmax;
 }
 .wkb-name {
-  color: black;
-  font-size: 1em;
-  padding: 8px;
+color: black;
+font-size: 1em;
+padding: 8px;
 }
 
 .nav-item {
-  display: flex;
-  justify-content: space-around;
-  color: whitesmoke;
-  width: 100%;
+display: flex;
+justify-content: space-around;
+color: whitesmoke;
+width: 100%;
 }
 
 .profile{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 8em;
-  margin-bottom: 6em;   
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 8em;
+margin-bottom: 6em;   
 }
 
 .wkb{
-  width: 25vmax;
-  height: 25vmax;
-  margin-right: 2em;
+width: 25vmax;
+height: 25vmax;
+margin-right: 2em;
 }
 
 
 .typing{
-  width: 20vmax;
+width: 20vmax;
 }
 
 .diamond{
-  height: 25vmax;
-  width: 25vmax;
-  margin-right: 4em;
-  transform: rotate(45deg);
+height: 25vmax;
+width: 25vmax;
+margin-right: 4em;
+transform: rotate(45deg);
 }
 
 .main > .profile > .diamond{
-  transform: rotate(45deg);
-  max-width: 40%;
-  height: auto;
+transform: rotate(45deg);
+max-width: 40%;
+height: auto;
 }
 
 .about {
-  background-color: rgb(21, 22, 22);
-  padding: 4em;
+background-color: rgb(21, 22, 22);
+padding: 4em;
 }
 
 .about > h2 {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .about > h3 {
-  display: flex;
-  justify-content: center;
-  margin: 0 6em 0 6em;
+display: flex;
+justify-content: center;
+margin: 0 6em 0 6em;
 }
 
 .grid-container > div {
-  text-align: center;
-  padding: 20px 0;
+text-align: center;
+padding: 20px 0;
 }
 
 .card-img-top{
-  object-fit: cover;
+object-fit: cover;
 }
 
 .content {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  justify-self: center;
-  text-align: center;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+justify-self: center;
+text-align: center;
 }
 
 .content > h3{
-  justify-content: left;
+justify-content: left;
 }
 
-h2#skills{
-  color: black;
-  background-color: white;
-  padding: 1.5em;
+.skillz > h2 {
+color: black;
+background-color: white;
+padding: 1.5em;
 }
 
 .skillz {
-  color: black;
-  background-color: white;
-  padding: 0 5em 5em 5em;
+color: black;
+background-color: white;
+padding: 0 5em 5em 5em;
 }
 
 div img {
-  height: 10vmin;
+height: 10vmin;
 }
 
 .div-city {
-  display: flex;
-  justify-content: space-around;
-  padding: 2em;
+display: flex;
+justify-content: space-around;
+padding: 2em;
 }
 
 
 .projects {
-  padding: 4em;
+padding: 4em;
 }
 
 .contact {
-  display: flex;
-  justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 
 h5, p {
-  color: black;
+color: black;
 }
 
 h5{
-  size: 2em;
+size: 2em;
 }
 
 p{
-  size: 1em;
+size: 1em;
 }
 
 footer{
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 5em;
+display: flex;
+justify-content: flex-end;
+margin-top: 5em;
 }
 
+@media Screen and (max-width: 768px) {
+  .navbar {
+    width: 129vw;
+  }
+  .main {
+    width: 129vw; 
+  }
+  .profile {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 129vw;
+  }
+  .wkb {
+    margin: 0 0 6em 0;
+  }
+  .diamond {
+    margin: 6em 0 0 0;
+  }
+  .about, .about > h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .footer {
+    width: 129vw;
+    display: flex;
+    text-align: left;
+  }
+}
