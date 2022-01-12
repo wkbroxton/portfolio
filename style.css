@@ -155,6 +155,10 @@ margin-top: 5em;
 }
 
 @media Screen and (max-width: 768px) {
+  .body {
+    width: auto;
+    height: auto;
+  }
   .navbar {
     width: 129vw;
   }
