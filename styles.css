@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+  color: whitesmoke;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.navbar {
+  width: 100%;
+  background-color: white;
+}
+
+.nav-logo {
+  width: 2.5vmax;
+  height: 2.5vmax;
+}
+.wkb-name {
+  color: black;
+  font-size: 1em;
+  padding: 8px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  color: whitesmoke;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 20vh 5vw 20vh 5vw;
+}
+
+.wkb {
+  width: 25vmax;
+  height: 25vmax;
+  /* margin-right: 2em; */
+}
+
+.typing {
+  width: 25vw;
+}
+
+.diamond {
+  height: 25vmax;
+  width: 25vmax;
+  /* margin-right: 4em; */
+  transform: rotate(45deg);
+}
+
+.main > .profile > .diamond {
+  transform: rotate(45deg);
+  max-width: 40%;
+  height: auto;
+}
+
+.about {
+  height: 50vh;
+}
+
+.about > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.about > h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0 6em 0 6em;
+}
+
+.navvy {
+  font-size: 0.5em;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.content > h3 {
+  justify-content: left;
+}
+
+.segments > h2 {
+  padding: 1.5em;
+}
+
+.tech {
+  color: black;
+  background-color: white;
+  padding: 0 5em 5em 5em;
+  height: 50vh;
+}
+
+.div-city > div img,
+.contact > div img {
+  height: 10vmin;
+}
+
+.div-city {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.projects {
+  padding: 4em;
+}
+
+.contact,
+.form-deets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  /* justify-content: space-around; */
+}
+
+h5,
+p {
+  color: black;
+}
+
+h5 {
+  size: 2em;
+}
+
+p {
+  size: 1em;
+}
+
+.subtext {
+  color: whitesmoke;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5em;
+}
