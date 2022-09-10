@@ -20,6 +20,15 @@ body {
 .navbar {
   width: 100%;
   background-color: white;
+  overflow: hidden;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: fixed;
 }
 
 .nav-logo {
@@ -50,7 +59,6 @@ body {
 .wkb {
   width: 25vmax;
   height: 25vmax;
-  /* margin-right: 2em; */
 }
 
 .typing {
@@ -60,7 +68,6 @@ body {
 .diamond {
   height: 25vmax;
   width: 25vmax;
-  /* margin-right: 4em; */
   transform: rotate(45deg);
 }
 
@@ -111,8 +118,13 @@ body {
   justify-content: left;
 }
 
-.segments > h2 {
-  padding: 1.5em;
+.segments {
+  padding: 1.5em 0 1.5em 0;
+}
+
+.information {
+  display: block;
+  width: 60vw;
 }
 
 .tech {
@@ -143,7 +155,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  /* justify-content: space-around; */
 }
 
 h5,
