@@ -2,25 +2,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.frost {
-  background-color: white;
-}
-
-.hero {
-  background-color: black;
-  height: 100vh;
-  color: white;
-  font-size: 30px;
-  font-family: "Poppins", sans-serif !important;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 80px;
-}
-
 nav {
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Poppins", sans-serif;
   color: whitesmoke;
   scroll-behavior: smooth;
 }
@@ -9,8 +9,17 @@ body {
   background-color: black;
 }
 
+.frost {
+  background-color: white;
+}
+
 .hero {
   height: 100vh;
+  background-color: black;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif important;
 }
 
 .container-fluid {
@@ -57,17 +66,24 @@ body {
 }
 
 .wkb {
-  width: 25vmax;
-  height: 25vmax;
+  width: 20vmax;
+  height: 20vmax;
+}
+.type-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .typing {
-  width: 25vw;
+  width: 20vw;
+  font-size: 1em;
 }
 
 .diamond {
-  height: 25vmax;
-  width: 25vmax;
+  height: 20vmax;
+  width: 20vmax;
   transform: rotate(45deg);
 }
 
@@ -78,7 +94,7 @@ body {
 }
 
 .about {
-  height: 50vh;
+  height: 85vh;
 }
 
 .about > h2 {
@@ -131,7 +147,7 @@ body {
   color: black;
   background-color: white;
   padding: 0 5em 5em 5em;
-  height: 50vh;
+  height: vh;
 }
 
 .div-city > div img,
@@ -178,4 +194,11 @@ p {
   display: flex;
   justify-content: flex-end;
   margin-top: 5em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
 }
