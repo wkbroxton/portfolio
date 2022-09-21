@@ -195,7 +195,7 @@ nav {
 .div-city {
   display: flex;
   justify-content: space-around;
-  padding: 2em;
+  padding: 3em;
 }
 
 .projects {
@@ -708,7 +708,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    margin: 20vh 5vw 20vh 5vw;
+    margin: 15vh 5vw 20vh 5vw;
     align-items: center;
   }
 
@@ -779,7 +779,7 @@ a {
   }
 
   .information > p {
-    font-size: 0.8em;
+    font-size: 1em;
     width: 84vw;
     padding-left: 15vw;
   }
