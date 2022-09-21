@@ -356,7 +356,7 @@ hr {
   width: 310px;
   height: 500px;
   box-shadow: 5px 5px 20px rgba(102, 90, 122, 0.87);
-  margin: 10px;
+  margin: 30px;
   border-radius: 19px;
   border: 5px solid black;
   background-color: #131212c2;
@@ -761,7 +761,7 @@ a {
   }
 
   .headshot {
-    width: 40vw;
+    width: 27vw;
     border-radius: 20%;
     padding-right: 5vw;
   }
