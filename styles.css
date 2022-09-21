@@ -85,6 +85,10 @@ nav {
   font-family: "Cormorant Garamond", serif;
 }
 
+.nav-link:hover {
+  color: #551a8b;
+}
+
 .nav-bg {
   background-color: whitesmoke;
 }
