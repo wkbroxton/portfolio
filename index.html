@@ -15,10 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,500&family=Lobster&family=Poppins:wght@200;300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/6ddb4e83fe.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
@@ -28,41 +28,33 @@
 <body>
     <section class="hero">
         <header class="navbar sticky-top fixed-top">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white;">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="https://i.imgur.com/u622H74.png" alt=""
-                            class="nav-logo d-inline-block align-text-top"></a>
-                    <span class="wkb-name">WILLIAM KEVIN BROXTON</span>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="lefty">
-                        <div class="collapse navbar-collapse" id="navbarColor03">
-                            <ul class="navbar-nav me-auto navvy">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">ABOUT</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#tech">TECH STACK</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#projects">PROJECTS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#music">MUSIC</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact">CONTACT</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <nav class="nav-bg container-fluid">
+                <img href="#home" class="nav-logo" src="https://i.imgur.com/u622H74.png"
+                    alt="William Kevin Broxton's Logo">
+                <span class="wkb-name">WILLIAM KEVIN BROXTON</span>
+                <ul id="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech">TECH STACK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">MUSIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
         </header>
-        <div id="home" class="profile main">
+        <div id="home" class="profile">
             <div>
                 <img class="wkb" src="https://i.imgur.com/jMattuo.png?1">
             </div>
@@ -84,7 +76,8 @@
                 teams. I love serving and building up the people around me. I'm a dedicated team player with
                 experience
                 training,
-                coaching, supervising, and inspiring staff.</p>
+                coaching, supervising, and inspiring staff.
+            </p>
         </div>
         <div class="headshot-container">
             <img class="headshot" src="src/images/WKB-headshot.png" alt="WKB's Headshot">
@@ -214,17 +207,7 @@
         </div>
     </section>
     <section class="contact footer" id="contact">
-        <h2 class="segments">Learn More About Me Here</h2>
-        <div class="socials">
-            <a href="https://www.linkedin.com/in/williamkevinbroxton/" target="_blank" class="social btn btn-light"><img
-                    src="https://i.imgur.com/moefKnB.png"></a>
-            <a href="https://github.com/wkbroxton" target="_blank" class="social btn btn-light"><img
-                    src="https://i.imgur.com/tUgtIOD.png"></a>
-            <a href="https://drive.google.com/file/d/1zoBEbyZTYcx9WZwP-83BRf4LwSvJjjV1/view?usp=sharing" target="_blank"
-                class="social btn btn-light"><img src="https://i.imgur.com/GPq3smx.png"></a>
-        </div>
-        <h2 class="segments">Or feel free to reach out</h2>
-        <div class="contact-form">
+        <!-- <div class="contact-form">
             <form action="https://formsubmit.co/95d9d6332077cd98917d61a9cc11c772" method="POST">
                 <input type="hidden" name="_subject" value="New Email!">
                 <input type="email" name="email" placeholder="Email Address" required>
@@ -232,6 +215,31 @@
                 <input type="text" name="message" placeholder="Your message here" required>
                 <button class="button" type="submit">Send</button>
             </form>
+        </div> -->
+        <div id="feedback-form">
+            <h2 class="header">Contact Me</h2>
+            <div>
+                <form action="https://formsubmit.co/95d9d6332077cd98917d61a9cc11c772" method="POST">
+                    <input type="hidden" name="_subject" value="New Email!">
+                    <input type="text" name="name" placeholder="Name"></input>
+                    <input type="text" name="email" placeholder="Email"></input>
+                    <input type="hidden" name="_next" value="https://kevinbroxton.com/pages/thankyou.html">
+                    <input type="textarea" rows="5" columns="50" name="message" placeholder="Your message here"
+                        required>
+                    <label for="feedback-notify">Share your contact phone number</label>
+                    <input type="checkbox" id="feedback-notify" name="notify">
+                    <input type="text" id="feedback-phone" name="phone" placeholder="Phone number"></input>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/williamkevinbroxton/" target="_blank" class="social btn btn-light"><img
+                    src="https://i.imgur.com/moefKnB.png"></a>
+            <a href="https://github.com/wkbroxton" target="_blank" class="social btn btn-light"><img
+                    src="https://i.imgur.com/tUgtIOD.png"></a>
+            <a href="https://drive.google.com/file/d/1zoBEbyZTYcx9WZwP-83BRf4LwSvJjjV1/view?usp=sharing" target="_blank"
+                class="social btn btn-light"><img src="https://i.imgur.com/GPq3smx.png" title="Resume"></a>
         </div>
         <div class="copyright">
             <h3>Copyright &copy; <script>
@@ -260,6 +268,7 @@
             .type(", but oftentimes better than a master of one.'")
             .go();
     </script>
+    <script src="src/app.js"></script>
 </body>
 
 </html>
