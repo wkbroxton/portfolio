@@ -98,7 +98,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  margin: 20vh 5vw 20vh 5vw;
+  margin: 25vh 5vw 20vh 0vw;
   align-items: center;
 }
 
@@ -190,7 +190,7 @@ nav {
 
 .div-city > div img,
 .contact > div img {
-  height: 10vmin;
+  height: 10vmax;
 }
 
 .div-city {
@@ -198,6 +198,10 @@ nav {
   justify-content: space-around;
   padding: 3em;
 }
+
+/* .biggins {
+  width: 20px;
+} */
 
 .projects {
   padding: 4em;
@@ -715,9 +719,13 @@ a {
   }
 
   .wkb-name {
-    color: black;
+    color: white;
     font-size: 0.6em;
     padding: 8px;
+  }
+
+  .nav-link {
+    color: black;
   }
 
   .nav-item {
