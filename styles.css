@@ -448,6 +448,22 @@ hr {
   opacity: 1;
 }
 
+.card6 {
+  background: url("https://i.imgur.com/gIWI3Rs.jpg") center center no-repeat;
+  background-size: 300px;
+}
+.card6:hover {
+  background: url("https://i.imgur.com/gIWI3Rs.jpg") right center no-repeat;
+  background-size: 590px;
+}
+
+.card6:hover h2 {
+  opacity: 1;
+}
+.card6:hover .fa {
+  opacity: 1;
+}
+
 .card3 {
   background: url("https://i.imgur.com/aCe1wCp.png") center center no-repeat;
   background-size: 300px;
@@ -551,6 +567,11 @@ input {
   text-align: center;
   padding: 5px;
   border: 10px #551a8b;
+}
+
+#contact-me {
+  padding: 20px;
+  margin-top: 1em;
 }
 
 @media only screen and (max-width: 1350px) {
